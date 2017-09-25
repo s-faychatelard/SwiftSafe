@@ -27,7 +27,7 @@ public protocol Safe {
     func write(_ access: @escaping SafeAccess)
 }
 
-let QueueName = "com.honzadvorsky.safe.queue"
+public let QueueName = "com.honzadvorsky.safe.queue"
 
 /**
  *  Exclusive read, exclusive write. Only one thread can read
